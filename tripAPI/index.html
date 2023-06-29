@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trips API</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Assignment 1 - Trips API</h1>
+
+      <p>Francisco Castillo</p>
+      <p>connected with mongoDB</p>
+      <br>
+      <div class="content">
+        
+          <h4> C - Create new Trip</h4>
+          <button class="button is-success" >Create new Trip - test using Thunder Client or Postman</button>
+     
+          <h4>R - All Trips</h4>
+          <a class="button is-info" href="/api/trips?page=1&perPage=5" target="_blank">GET /api/trips?page=1&perPage=5</a>
+    
+          <h4>U - Update Trip</h4>
+          <a class="button is-warning" href="/" target="_blank">Update using ThunderClient or Postman</a>
+      
+          <h4>D - Delete Trip</h4>
+          <a class="button is-danger" href="/" data-method="delete">DELETE Update using ThunderClient or Postman</a>
+     
+         
+          <h2 class="title">Read with filters: </h2>
+
+          <h4>R - View Trip</h4>
+          <a class="button is-primary" href="/api/trips/572bb8222b288919b68abf5a" target="_blank">GET /api/trips/:id</a>
+      
+    </div> 
+  </section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+</body>
+
+</html>
